@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tickets.xsd">
+	<ticket recipient="JohnnyDoe" sender="">
+		<id>1</id>
+		<status>Closed</status>
+		<date>2013-12-05</date>
+		<category>Strings</category>
+		<description>Broken tail piece</description>
+		<message recipient="GC" sender="JaneyS123">This is message 1</message>
+		<customerID>1</customerID>
+		<staffID>1</staffID>
+		<message recipient="JohnnyDoe" sender="eghjklkjh">wertyuiolk</message>
+	<message recipient="JohnnyDoe" sender=""/><message recipient="JohnnyDoe" sender=""/></ticket>
+	<ticket>
+		<id>2</id>
+		<status>Closed</status>
+		<date>2016-10-05</date>
+		<category>Brass</category>
+		<description>Broken spit valve</description>
+		<message recipient="GC" sender="JohnnyDoe">this is message 2</message>
+		<customerID>2</customerID>
+		<staffID>2</staffID>
+	</ticket>
+	<ticket recipient="JohnnyDoe" sender="">
+		<id>3</id>
+		<status>Closed</status>
+		<date>2014-09-11</date>
+		<category>Percussion</category>
+		<description>New snare head</description>
+		<message recipient="JohnnyDoe" sender="JaneyS123">this is meesage 3</message>
+		<customerID>3</customerID>
+		<staffID>3</staffID>
+	</ticket>
+</tickets>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="user.xsd">
+	<user> 
+		<id>1</id>
+		<type>staff</type>
+		<username>JohnnyDoe</username>
+		<password>password</password>
+		<name>
+	      <first>John</first>
+	      <last>Doe</last>
+    	</name>
+    <email>johndoe@gmail.com</email>
+	</user>
+	<user>
+		<id>2</id>
+		<type>customer</type>
+		<username>JaneyS123</username>
+		<password>password</password>
+		  <name>
+	        <first>Jane</first>
+	        <last>Smith</last>
+    	</name>
+    	<email>janesmith@gmail.com</email>
+    	<office>Downtown Toronto</office>
+	</user>
+	<user>
+		<id>3</id>
+		<type>customer</type>
+		<username>GC</username>
+		<password>password</password>
+		<name>
+	      <first>George</first>
+	      <last>Clooney</last>
+    	</name>
+    	<email>georgeclooney@gmail.com</email>
+	</user>
+</users>

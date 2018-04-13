@@ -1,0 +1,65 @@
+/*******************************************
+*TABLE OF CONTENTS
+*=================
+*1. DEFAULT OVERRIDES
+*2. MAIN
+*3. LINKS AND BUTTONS
+*********************************************/
+
+
+/*===========================================================
+/* 1. DEFAULT OVERRIDES */
+/*=========================================================*/
+
+#body{
+    background-color: lightsteelblue;
+}
+
+/*===========================================================
+/* 2. MAIN */
+/*=========================================================*/
+
+table, th, td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10%;
+}
+#ticket_wrapper{
+	background-color: white;
+	border: 1px solid black;
+	width: 600px;
+	margin: 0 auto;
+}
+.ticket_text{
+	margin-left:30px;
+}
+.ticket_greeting{
+	display: block;
+	text-align: center;
+}
+
+
+/*===========================================================
+/* 3. LINKS AND BUTTONS */
+/*=========================================================*/
+
+.link {
+	display: block;
+	text-align: center;
+	font-size: 4em;
+	color: yellow;
+}
+.btn_message {
+	margin-bottom: 10px;
+    margin-left: 30px
+}
+a.button {
+    padding: 5px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
